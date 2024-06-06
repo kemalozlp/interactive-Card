@@ -1,12 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>İnteractive Card</title>
+  <link rel="stylesheet" href="assets/css/card.css">
 </head>
+
 <body>
-  <p>kemal</p>
-  
+
+  <div class="container">
+    <div class="card">
+      <div class="card-">
+        <img src="assets/img/ovals.png" alt="Yuvarlak objeler">
+
+        <div class="card-info">
+          <p class="card-numbers">1234 5678 9012 3456</p>
+          <div class="card-my-name">
+            <div class="name">Alex Pricope</div>
+            <div class="month-year">01/02</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-back">
+        <div class="black-line"></div>
+        <p class="cvc">123</p>
+        <img src="assets/img/backend-lines.png" alt=" çizgiler">
+      </div>
+    </div>
+
+    <form class="card-detail">
+      <div>
+        <p>Kart Sahibi Adı/Soyadı</p>
+        <input type="text" placeholder="Örn: Alex Pricope">
+      </div>
+      <div>
+        <p>Kart Numarası</p>
+        <input type="number" placeholder="Örn: 1234 5678 9012 3456">
+      </div>
+      <div class="exp-date-cvc">
+        <div class="month-year-form">
+          <p>Son kullanma tarihi. Tarih (AA/YY)</p>
+          <div>
+            <input type="number" placeholder="AA">
+            <input type="number" placeholder="YY">
+          </div>
+        </div>
+        <div class="cvc-form">
+          <p>CVC</p>
+          <input type="number" placeholder="Örn: 123">
+        </div>
+      </div>
+        <button>GÖNDER </button>
+    
+    </form>
+
+    <div class="thank"> 
+      <img src="assets/img/Group 9.png" alt="okey işareti">
+        <h1>TEŞEKKÜR EDERİZ!</h1>
+        <p>Kart bilgilerinizi ekledik</p>
+        <button>Devam Et</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
 </body>
+
 </html>

@@ -18,6 +18,8 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  cursor: url(/assets/img/1.jpeg);
+  
 }
 
 img,
@@ -216,6 +218,7 @@ button {
   padding-block: 15px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 
